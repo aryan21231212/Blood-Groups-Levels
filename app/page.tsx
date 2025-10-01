@@ -158,12 +158,13 @@ const Page: React.FC = () => {
               Donate Now
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
             </Link>
+            <Link href="admin" className="hover:text-green-600 transition-colors duration-300 relative group">
+              Admin
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
+            </Link>
           </nav>
           
-          <button className="flex items-center gap-2 border border-red-200 px-4 py-2 rounded-full hover:bg-red-600 hover:text-white hover:border-red-600 transition-all duration-300 transform hover:scale-105">
-            <Globe size={18}/> 
-            <span>Language</span>
-          </button>
+       
         </header>
 
         {/* Hero Section */}
